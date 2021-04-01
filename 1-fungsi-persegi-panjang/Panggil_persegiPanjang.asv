@@ -1,0 +1,12 @@
+clear all;
+clc;
+
+p = input('Masukkan Panjang : ' );
+l = input('Masukkan Lebar : ');
+
+[luas,keliling] = fungsi_persegiPanjang(p,l);
+
+% num2str adalah mengubah angka menjadi string
+disp('')
+disp(['Luas Persegi Panjang = ' num2str(luas) ])
+disp(['Keliling Persegi Panjang = ' num2str(keliling) ])
